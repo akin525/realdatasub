@@ -1,0 +1,868 @@
+[15-Mar-2025 02:31:37 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '98.3', '196.6', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '98.3', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:39 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '196.6', '294.9', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '196.6', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:41 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '294.9', '393.2', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '294.9', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:42 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '393.2', '491.5', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '393.2', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:43 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '491.5', '589.8', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '491.5', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:43 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '589.8', '688.1', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '589.8', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:44 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '688.1', '786.4', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '688.1', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:44 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '786.4', '884.7', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '786.4', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:44 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '884.7', '983', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '884.7', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:45 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '983', '1081.3', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '983', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:45 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '1081.3', '1179.6', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '1081.3', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:45 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '1179.6', '1277.9', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '1179.6', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:45 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '1277.9', '1376.2', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '1277.9', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:46 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '1376.2', '1474.5', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '1376.2', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:46 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '1474.5', '1572.8', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '1474.5', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:46 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '1572.8', '1671.1', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '1572.8', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:46 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '1671.1', '1769.4', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '1671.1', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:47 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '1769.4', '1867.7', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '1769.4', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:47 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '1867.7', '1966', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '1867.7', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:47 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '1966', '2064.3', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '1966', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:47 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '2064.3', '2162.6', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '2064.3', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:47 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '2162.6', '2260.9', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '2162.6', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:48 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '2260.9', '2359.2', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '2260.9', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:48 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '2359.2', '2457.5', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '2359.2', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:48 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '2457.5', '2555.8', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '2457.5', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:48 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '2457.5', '2555.8', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '2457.5', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:49 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '2555.8', '2654.1', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '2555.8', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:49 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '2654.1', '2752.4', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '2654.1', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:50 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '2752.4', '2850.7', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '2752.4', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:50 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '2850.7', '2949', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '2850.7', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:50 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '2949', '3047.3', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '2949', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:51 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '3047.3', '3145.6', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '3047.3', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:51 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '3145.6', '3243.9', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '3145.6', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:51 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '3243.9', '3342.2', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '3243.9', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:51 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '3342.2', '3440.5', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '3342.2', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:51 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '3440.5', '3538.8', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '3440.5', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:52 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '3538.8', '3637.1', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '3538.8', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:52 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '3637.1', '3735.4', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '3637.1', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:52 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '3735.4', '3833.7', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '3735.4', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:52 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '3833.7', '3932', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '3833.7', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:52 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '3932', '4030.3', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '3932', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:53 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '4030.3', '4128.6', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '4030.3', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:53 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '4128.6', '4226.9', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '4128.6', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:53 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '4226.9', '4325.2', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '4226.9', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:54 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '4325.2', '4423.5', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '4325.2', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:54 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '4423.5', '4521.8', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '4423.5', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:54 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '4521.8', '4620.1', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '4521.8', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:54 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '4620.1', '4718.4', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '4620.1', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:54 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '4718.4', '4816.7', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '4718.4', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:55 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '4816.7', '4915', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '4816.7', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:55 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '4915', '5013.3', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '4915', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:56 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '5013.3', '5111.6', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '5013.3', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:56 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '5111.6', '5209.9', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '5111.6', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:56 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '5209.9', '5308.2', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '5209.9', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:57 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '5308.2', '5406.5', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '5308.2', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:57 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '5406.5', '5504.8', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '5406.5', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:57 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '5504.8', '5603.1', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '5504.8', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:57 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '5603.1', '5701.4', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '5603.1', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:58 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '5701.4', '5799.7', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '5701.4', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:31:58 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '5799.7', '5898', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '5799.7', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:04 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '5898', '5996.3', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '5898', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:04 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '5996.3', '6094.6', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '5996.3', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:04 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '6094.6', '6192.9', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '6094.6', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:04 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '6192.9', '6291.2', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '6192.9', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:05 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '6291.2', '6389.5', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '6291.2', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:05 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '6389.5', '6487.8', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '6389.5', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:05 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '6487.8', '6586.1', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '6487.8', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:05 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '6586.1', '6684.4', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '6586.1', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:05 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '6684.4', '6782.7', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '6684.4', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:06 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '6782.7', '6881', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '6782.7', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:06 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '6881', '6979.3', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '6881', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:06 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '6979.3', '7077.6', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '6979.3', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:06 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '7077.6', '7175.9', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '7077.6', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:07 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '7175.9', '7274.2', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '7175.9', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:07 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '7274.2', '7372.5', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '7274.2', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:07 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '7372.5', '7470.8', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '7372.5', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:07 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '7470.8', '7569.1', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '7470.8', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:08 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '7569.1', '7667.4', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '7569.1', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:08 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '7667.4', '7765.7', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '7667.4', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:08 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '7765.7', '7864', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '7765.7', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:08 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '7864', '7962.3', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '7864', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:08 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '7962.3', '8060.6', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '7962.3', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:09 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '8060.6', '8158.9', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '8060.6', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:09 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '8158.9', '8257.2', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '8158.9', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:09 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '8257.2', '8355.5', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '8257.2', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:09 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '8355.5', '8453.8', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '8355.5', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:13 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '8453.8', '8552.1', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '8453.8', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:13 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '8552.1', '8650.4', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '8552.1', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:13 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '8650.4', '8748.7', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '8650.4', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:14 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '8748.7', '8847', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '8748.7', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:14 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '8847', '8945.3', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '8847', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:14 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '8945.3', '9043.6', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '8945.3', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:14 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '9043.6', '9141.9', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '9043.6', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:14 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '9141.9', '9240.2', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '9141.9', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:15 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '9240.2', '9338.5', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '9240.2', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:15 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '9338.5', '9436.8', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '9338.5', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:15 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '9436.8', '9535.1', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '9436.8', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:15 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '9535.1', '9633.4', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '9535.1', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:16 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '9633.4', '9731.7', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '9633.4', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:16 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '9731.7', '9830', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '9731.7', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:16 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '9830', '9928.3', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '9830', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:16 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '9928.3', '10026.6', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '9928.3', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:17 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '10026.6', '10124.9', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '10026.6', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:17 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '10124.9', '10223.2', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '10124.9', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:17 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '10223.2', '10321.5', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '10223.2', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:18 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '10321.5', '10419.8', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '10321.5', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:18 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '10419.8', '10518.1', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '10419.8', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:18 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '10518.1', '10616.4', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '10518.1', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:18 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '10616.4', '10714.7', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '10616.4', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:18 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '10714.7', '10813', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '10714.7', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:19 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '10813', '10911.3', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '10813', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:19 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '10911.3', '11009.6', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '10911.3', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:19 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '11009.6', '11107.9', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '11009.6', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:19 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '11107.9', '11206.2', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '11107.9', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:19 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '11206.2', '11304.5', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '11206.2', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:19 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '11304.5', '11402.8', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '11304.5', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:20 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '11402.8', '11501.1', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '11402.8', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:20 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '11501.1', '11599.4', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '11501.1', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:20 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '11599.4', '11697.7', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '11599.4', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:20 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '11697.7', '11796', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '11697.7', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:21 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '11796', '11894.3', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '11796', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:21 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '11894.3', '11992.6', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '11894.3', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:21 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '11992.6', '12090.9', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '11992.6', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
+[15-Mar-2025 02:32:21 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8adodlr258' for key 'transref' in /home/realdata/public_html/core/Models/ApiModel.php:338
+Stack trace:
+#0 /home/realdata/public_html/core/Models/ApiModel.php(338): PDOStatement->execute()
+#1 /home/realdata/public_html/core/Controllers/ApiAccess.php(334): ApiModel->recordTransaction(10, 'Wallet Topup', 'Wallet funding ...', '8adodlr258', '98.3', '12090.9', '12189.2', 0)
+#2 /home/realdata/public_html/webhook/paystack/index.php(42): ApiAccess->recordPaystackTransaction('10', 'Wallet Topup', 'Wallet funding ...', 98.3, '12090.9', '8adodlr258', '0')
+#3 {main}
+  thrown in /home/realdata/public_html/core/Models/ApiModel.php on line 338
