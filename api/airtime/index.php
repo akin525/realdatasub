@@ -281,7 +281,7 @@
     // -------------------------------------------------------------------
     // Debit User Wallet & Record Transaction
     // -------------------------------------------------------------------
-    if($result["status"]=="success"){
+    if($result["status"]==1){
         if($refearedby <> ""){ $controller->creditReferalBonus($referal,$referalname,$refearedby,$servicename); }
         $controller->updateTransactionStatus($userid,$body->ref,$amountopay,"0");
         $controller->saveProfit($body->ref,$profit);
