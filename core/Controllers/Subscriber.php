@@ -12,8 +12,8 @@
 		public $limit=0;
 		public $noFetch=1;
 		public $siteurl;
-		
-		
+
+
 		protected $model;
  
 		//Default Constructor
@@ -137,16 +137,66 @@
 
 		//Purchase Airtime
 		public function purchaseAirtime(){
+			$controller = new ApiAccess;
+			$airtimeController = new Airtime;
+			if((isset($headers['Authorization']) || isset($headers['authorization'])) || (isset($headers['Token']) || isset($headers['token']))){
+				if((isset($headers['Authorization']) || isset($headers['authorization']))){
+					$token = trim(str_replace("Token", "", (isset($headers['Authorization'])) ? $headers['Authorization'] : $headers['authorization']));
+				}
+				if((isset($headers['Token']) || isset($headers['token']))){
+					$token = trim(str_replace("Token", "", (isset($headers['Token'])) ? $headers['Token'] : $headers['token']));
+				}
+				$result=$controller->validateAccessToken($token);
+				if($result["status"] == "fail"){
+					// tell the user no products found
+					header('HTTP/1.0 401 Unauthorized');
+					$response["status"] = "fail";
+					$response["msg"] = "Authorization token not found $token";
+					echo json_encode($response); exit();
+				}
+				else{
+					$usertype = $result["usertype"];
+					$userbalance = (float) $result["balance"];
+					$userid = $result["userid"];
+					$refearedby = $result["refearedby"];
+					$referal = $result["phone"];
+					$referalname = $result["name"];
+				}
+			}
+			else{
+				header('HTTP/1.0 401 Unauthorized');
+				// tell the user no products found
+				$response["status"] = "fail";
+				$response["msg"] = "Your authorization token is required.";
+				echo json_encode($response); exit();
+			}
 			extract($_POST);
 			$host = $this->siteurl."/api/airtime/";
 
 			$check=$this->model->verifyTransactionPin($this->userId,$transkey);
 			$ported_number = "false";
-			
-			if(isset($_POST["ported_number"])){
-			    if($_POST["ported_number"] == "on"){$ported_number = "true";}
+
+
+			$result = $controller->calculateAirtimeDiscount($network,$airtime_type,$amount,$usertype);
+			$amountopay = (float) $result["discount"];
+			$buyamount =  (float) $result["buyamount"];
+			$profit = $amountopay - $buyamount;
+
+
+
+			if($amountopay > $userbalance || $amountopay < 0){
+				header('HTTP/1.0 400 Insufficient Balance');
+				$response['status']="fail";
+				$response['msg'] = "Insufficient balance fund your wallet and try again";
+				echo json_encode($response);
+				exit();
 			}
-			
+
+//			if(isset($_POST["ported_number"])){
+//			    if($_POST["ported_number"] == "on"){$ported_number = "true";}
+//			}
+
+
 			if(is_object($check)){
 				
 				//Purchase Airtime
@@ -295,12 +345,14 @@
 		
 		//Purchase Alpha Topup API
 		public function purchaseAlphaTopup(){
+			$controller = new ApiAccess;
+			$airtimeController = new Airtime;
 			extract($_POST);
 			$host = $this->siteurl."/api/alphatopup/";
 
 			$check=$this->model->verifyTransactionPin($this->userId,$transkey);
 			$ported_number = "false";
-			
+
 			if(is_object($check)){
 				
 				//Purchase Airtime
