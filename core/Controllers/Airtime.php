@@ -27,8 +27,8 @@
                 $hostuserurl="https://bilalsadasub.com/api/user/";
                 return $this->purchaseAirtimeWithBasicAuthentication($body,$host,$hostuserurl,$apiKey,$thenetworkId);
             }
-            
-            
+
+            $hostuserurl="https://api.savebills.com.ng/api/auth/airtime";
             // ------------------------------------------
             //  Purchase Airtime
             // ------------------------------------------
@@ -99,43 +99,14 @@
             
             if($body->ported_number == "false"){$ported_number=false;} else{$ported_number=true;}
 
-            $curlA = curl_init();
-            curl_setopt_array($curlA, array(
-                CURLOPT_URL => $hostuserurl,
-                CURLOPT_RETURNTRANSFER => true,
-                CURLOPT_ENCODING => '',
-                CURLOPT_MAXREDIRS => 10,
-                CURLOPT_TIMEOUT => 0,
-                CURLOPT_FOLLOWLOCATION => true,
-                CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-                CURLOPT_CUSTOMREQUEST => 'GET',
-                CURLOPT_HTTPHEADER => array(
-                    "Authorization: Basic  $apiKey",
-                    'Content-Type: application/json'
-                ),
-            ));
-        
-            $exereqA = curl_exec($curlA);
-            $err = curl_error($curlA);
-            
-            if($err){
-                $response["status"] = "fail";
-                $response["msg"] = "Server Connection Error "; //.$err;
-                curl_close($curlA);
-                return $response;
-            }
-            $resultA=json_decode($exereqA);
-            $apiKey=$resultA->AccessToken;
-            curl_close($curlA);
-        
-            
+
             // ------------------------------------------
             //  Purchase Airtime
             // ------------------------------------------
         
             $curl = curl_init();
             curl_setopt_array($curl, array(
-            CURLOPT_URL => $host,
+            CURLOPT_URL =>"https://api.savebills.com.ng/api/auth/airtime",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,
@@ -146,15 +117,15 @@
             CURLOPT_POSTFIELDS =>'{
                 "network": "'.$thenetworkId.'",
                 "amount": "'.$body->amount.'",
-                "phone": "'.$body->phone.'",
+                "number": "'.$body->phone.'",
                 "bypass":"'.$ported_number.'",
-                "request-id" : "'.$body->ref.'",
+                "refid" : "'.$body->ref.'",
                 "plan_type": "'.$body->airtime_type.'"
             }',
             
             CURLOPT_HTTPHEADER => array(
                 'Content-Type: application/json',
-                "Authorization: Token $apiKey"
+                "x-api-key: SB.KEY3.5532838074845146e+43"
             ),
             ));
 
@@ -173,7 +144,7 @@
             $result=json_decode($exereq);
             curl_close($curl);
 
-            if($result->status=='successful' || $result->status=='success'){
+            if($result->status==1 || $result->status=='success'){
                 $response["status"] = "success";
             }
             else{

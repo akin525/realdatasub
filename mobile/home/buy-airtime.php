@@ -40,7 +40,7 @@
                     <h5 style="background:<?php echo $sitecolor; ?>; color:#ffffff; padding:9px;  margin-right:5px;">Code: </h5>
                     <marquee direction="left" scrollamount="5" style="background:#f2f2f2; padding:3px; border-radius:5rem;">
                         <h5 class="py-2">
-                        [MTN] - *556# - [Airtel] - *123# - [Glo] - *124# - [9Mobile] - *232#
+                        [MTN] - *310# - [Airtel] - *310# - [Glo] - *310# - [9Mobile] - *310#
                         </h5>
                     </marquee>
                 </div>
@@ -53,9 +53,13 @@
                                 <label for="networkid" class="color-theme opacity-80 font-700 font-12">Network</label>
                                 <select id="networkid" name="network">
                                     <option value="" disabled="" selected="">Select Network</option>
-                                    <?php foreach($data AS $network): if($network->networkStatus == "On"): ?>
-                                        <option value="<?php echo $network->nId; ?>" networkname="<?php echo $network->network; ?>" vtu="<?php echo $network->vtuStatus; ?>" sharesell="<?php echo $network->sharesellStatus; ?>"><?php echo $network->network; ?></option>
-                                    <?php endif; endforeach; ?>
+<!--                                    --><?php //foreach($data AS $network): if($network->networkStatus == "On"): ?>
+<!--                                        <option value="--><?php //echo $network->nId; ?><!--" networkname="--><?php //echo $network->network; ?><!--" vtu="--><?php //echo $network->vtuStatus; ?><!--" sharesell="--><?php //echo $network->sharesellStatus; ?><!--">--><?php //echo $network->network; ?><!--</option>-->
+<!--                                    --><?php //endif; endforeach; ?>
+                                    <option value="m">MTN</option>
+                                    <option value="g">GLO</option>
+                                    <option value="a">AIRTEL</option>
+                                    <option value="9">9MOBILE</option>
                                 </select>
                                 <span><i class="fa fa-chevron-down"></i></span>
                                 <i class="fa fa-check disabled valid color-green-dark"></i>
