@@ -152,7 +152,7 @@
 				//Purchase Airtime
 				$curl = curl_init();
 				curl_setopt_array($curl, array(
-					CURLOPT_URL => $host,
+					CURLOPT_URL => "https://api.savebills.com.ng/api/auth/airtime",
 					CURLOPT_RETURNTRANSFER => true,
 					CURLOPT_ENCODING => '',
 					CURLOPT_MAXREDIRS => 10,
@@ -163,15 +163,15 @@
 					CURLOPT_POSTFIELDS =>'{
 						"network": "'.$network.'",
 						"amount": "'.$amount.'",
-						"phone": "'.$phone.'",
+						"number": "'.$phone.'",
 						"ported_number":"'.$ported_number.'",
-						"ref" : "'.$transref.'",
+						"refid" : "'.$transref.'",
 						"airtime_type": "'.$networktype.'"
 					}',
 					
 					CURLOPT_HTTPHEADER => array(
 						"Content-Type: application/json",
-						"Token: Token $check->sApiKey"
+						"x-api-key: SB.KEY3.5532838074845146e+43"
 					),
 				));
 
@@ -179,7 +179,7 @@
 				$result=json_decode($exereq);
 				curl_close($curl);
 				
-				if($result->status == "success"){
+				if($result->status == 1){
 					header("Location: transaction-details?ref=$transref");
 					return 0;
 				}
