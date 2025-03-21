@@ -139,9 +139,9 @@
             $msg=$controller->purchaseAirtime();
         }
         //Purchase Bulksms
-        if(isset($_POST["purchase-airtime"])){
-            $msg=$controller->purchaseBulksms();
-        }
+//        if(isset($_POST["purchase-airtime"])){
+//            $msg=$controller->purchaseBulksms();
+//        }
 
 
         //Purchase Data

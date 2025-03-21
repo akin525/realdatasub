@@ -12,8 +12,8 @@
 		public $limit=0;
 		public $noFetch=1;
 		public $siteurl;
-		
-		
+
+
 		protected $model;
  
 		//Default Constructor
@@ -137,22 +137,47 @@
 
 		//Purchase Airtime
 		public function purchaseAirtime(){
+			$controller = new ApiAccess;
+			$airtimeController = new Airtime;
+
 			extract($_POST);
 			$host = $this->siteurl."/api/airtime/";
 
 			$check=$this->model->verifyTransactionPin($this->userId,$transkey);
 			$ported_number = "false";
-			
+
+
+			$result = $controller->calculateAirtimeDiscount($network,$airtime_type,$amount,$usertype);
+			$amountopay = (float) $result["discount"];
+			$buyamount =  (float) $result["buyamount"];
+			$profit = $amountopay - $buyamount;
+
+
+
+			if($amountopay > $userbalance || $amountopay < 0){
+				header('HTTP/1.0 400 Insufficient Balance');
+				$response['status']="fail";
+				$response['msg'] = "Insufficient balance fund your wallet and try again";
+				echo json_encode($response);
+				exit();
+			}
+
 			if(isset($_POST["ported_number"])){
 			    if($_POST["ported_number"] == "on"){$ported_number = "true";}
 			}
-			
+
+
 			if(is_object($check)){
-				
+
+				// Deduct amount from user balance before making API request
+				$deduction = $this->model->deductBalance($this->userId, $amountopay);
+				if (!$deduction) {
+					return $this->createPopMessage("Error!!", "Unable to deduct balance. Please try again.", "red");
+				}
 				//Purchase Airtime
 				$curl = curl_init();
 				curl_setopt_array($curl, array(
-					CURLOPT_URL => $host,
+					CURLOPT_URL => "https://api.savebills.com.ng/api/auth/airtime",
 					CURLOPT_RETURNTRANSFER => true,
 					CURLOPT_ENCODING => '',
 					CURLOPT_MAXREDIRS => 10,
@@ -163,15 +188,15 @@
 					CURLOPT_POSTFIELDS =>'{
 						"network": "'.$network.'",
 						"amount": "'.$amount.'",
-						"phone": "'.$phone.'",
+						"number": "'.$phone.'",
 						"ported_number":"'.$ported_number.'",
-						"ref" : "'.$transref.'",
+						"refid" : "'.$transref.'",
 						"airtime_type": "'.$networktype.'"
 					}',
 					
 					CURLOPT_HTTPHEADER => array(
 						"Content-Type: application/json",
-						"Token: Token $check->sApiKey"
+						"x-api-key: SB.KEY3.5532838074845146e+43"
 					),
 				));
 
@@ -179,7 +204,7 @@
 				$result=json_decode($exereq);
 				curl_close($curl);
 				
-				if($result->status == "success"){
+				if($result->status == 1){
 					header("Location: transaction-details?ref=$transref");
 					return 0;
 				}
@@ -191,6 +216,7 @@
 				return $this->createPopMessage("Error!!","Incorrect Pin, Please Try Again.","red");
 			}
 		}
+
 
 		//----------------------------------------------------------------------------------------------------------------
 		// Buy Recharge Card
@@ -295,12 +321,14 @@
 		
 		//Purchase Alpha Topup API
 		public function purchaseAlphaTopup(){
+			$controller = new ApiAccess;
+			$airtimeController = new Airtime;
 			extract($_POST);
 			$host = $this->siteurl."/api/alphatopup/";
 
 			$check=$this->model->verifyTransactionPin($this->userId,$transkey);
 			$ported_number = "false";
-			
+
 			if(is_object($check)){
 				
 				//Purchase Airtime
