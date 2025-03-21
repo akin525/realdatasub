@@ -97,7 +97,7 @@
 
                             <div class="input-style input-style-always-active has-borders validate-field mb-4">
                                 <label for="amounttopay" class="color-theme opacity-80 font-700 font-12">Amount To Pay</label>
-                                <input type="number" name="amounttopay" placeholder="Amount To Pay" value="" class="round-small" id="amounttopay"  required  />
+                                <input type="number" name="amount" placeholder="Amount To Pay" value="" class="round-small" id="amounttopay"  required  />
                             </div>
 
                             <div class="input-style input-style-always-active has-borders validate-field mb-4">
