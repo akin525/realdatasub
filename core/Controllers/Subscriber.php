@@ -147,11 +147,11 @@
 			$ported_number = "false";
 
 
-			$result = $controller->calculateAirtimeDiscount($network,$airtime_type,$amount,$usertype);
-			$amountopay = (float) $result["discount"];
-			$buyamount =  (float) $result["buyamount"];
-			$profit = $amountopay - $buyamount;
-
+//			$result = $controller->calculateAirtimeDiscount($network,$airtime_type,$amount,$usertype);
+//			$amountopay = (float) $result["discount"];
+//			$buyamount =  (float) $result["buyamount"];
+//			$profit = $amountopay - $buyamount;
+//
 
 
 //			if($amountopay > $userbalance || $amountopay < 0){
