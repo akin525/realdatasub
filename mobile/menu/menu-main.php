@@ -11,16 +11,16 @@
         <span>Fund Wallet</span>
         <i class="fa fa-angle-right"></i>
     </a>
-    <a href="sendbulksms" >
-        <i class="fa fa-receipt color-white" style="background-color:<?php echo $sitecolor; ?>"></i>
-        <span>sendbulksms</span>
-        <i class="fa fa-angle-right"></i>
-    </a>
-    <a href="authentication" >
-        <i class="fa fa-receipt color-white" style="background-color:<?php echo $sitecolor; ?>"></i>
-        <span>KYC VERIFICATION</span>
-        <i class="fa fa-angle-right"></i>
-    </a>
+<!--    <a href="sendbulksms" >-->
+<!--        <i class="fa fa-receipt color-white" style="background-color:--><?php //echo $sitecolor; ?><!--"></i>-->
+<!--        <span>sendbulksms</span>-->
+<!--        <i class="fa fa-angle-right"></i>-->
+<!--    </a>-->
+<!--    <a href="authentication" >-->
+<!--        <i class="fa fa-receipt color-white" style="background-color:--><?php //echo $sitecolor; ?><!--"></i>-->
+<!--        <span>KYC VERIFICATION</span>-->
+<!--        <i class="fa fa-angle-right"></i>-->
+<!--    </a>-->
     <a href="buy-data" >
         <i class="fa fa-wifi color-white" style="background-color:<?php echo $sitecolor; ?>"></i>
         <span>Data</span>
@@ -76,11 +76,11 @@
         <span>Developer</span>
         <i class="fa fa-angle-right"></i>
     </a>
-    <a href="apidocumentation">
-        <i class="fa fa-code color-white" style="background-color:<?php echo $sitecolor; ?>"></i>
-        <span>Api</span>
-        <i class="fa fa-angle-right"></i>
-    </a>
+<!--    <a href="apidocumentation">-->
+<!--        <i class="fa fa-code color-white" style="background-color:--><?php //echo $sitecolor; ?><!--"></i>-->
+<!--        <span>Api</span>-->
+<!--        <i class="fa fa-angle-right"></i>-->
+<!--    </a>-->
     <a href="logout">
         <i class="fa fa-lock color-white" style="background-color:<?php echo $sitecolor; ?>"></i>
         <span>Logout</span>
