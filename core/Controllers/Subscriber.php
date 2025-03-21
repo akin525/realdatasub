@@ -137,12 +137,34 @@
 
 		//Purchase Airtime
 		public function purchaseAirtime(){
+			$controller = new ApiAccess;
+			$airtimeController = new Airtime;
 
 			extract($_POST);
 			$host = $this->siteurl."/api/airtime/";
 
 			$check=$this->model->verifyTransactionPin($this->userId,$transkey);
 			$ported_number = "false";
+
+
+			$result = $controller->calculateAirtimeDiscount($network,$airtime_type,$amount,$usertype);
+			$amountopay = (float) $result["discount"];
+			$buyamount =  (float) $result["buyamount"];
+			$profit = $amountopay - $buyamount;
+
+
+
+			if($amountopay > $userbalance || $amountopay < 0){
+				header('HTTP/1.0 400 Insufficient Balance');
+				$response['status']="fail";
+				$response['msg'] = "Insufficient balance fund your wallet and try again";
+				echo json_encode($response);
+				exit();
+			}
+
+			if(isset($_POST["ported_number"])){
+			    if($_POST["ported_number"] == "on"){$ported_number = "true";}
+			}
 
 
 			if(is_object($check)){
