@@ -154,13 +154,13 @@
 
 
 
-			if($amountopay > $userbalance || $amountopay < 0){
-				header('HTTP/1.0 400 Insufficient Balance');
-				$response['status']="fail";
-				$response['msg'] = "Insufficient balance fund your wallet and try again";
-				echo json_encode($response);
-				exit();
-			}
+//			if($amountopay > $userbalance || $amountopay < 0){
+//				header('HTTP/1.0 400 Insufficient Balance');
+//				$response['status']="fail";
+//				$response['msg'] = "Insufficient balance fund your wallet and try again";
+//				echo json_encode($response);
+//				exit();
+//			}
 
 //			if(isset($_POST["ported_number"])){
 //			    if($_POST["ported_number"] == "on"){$ported_number = "true";}
