@@ -168,7 +168,12 @@
 
 
 			if(is_object($check)){
-				
+
+				// Deduct amount from user balance before making API request
+				$deduction = $this->model->deductBalance($this->userId, $amountopay);
+				if (!$deduction) {
+					return $this->createPopMessage("Error!!", "Unable to deduct balance. Please try again.", "red");
+				}
 				//Purchase Airtime
 				$curl = curl_init();
 				curl_setopt_array($curl, array(
@@ -211,6 +216,7 @@
 				return $this->createPopMessage("Error!!","Incorrect Pin, Please Try Again.","red");
 			}
 		}
+
 
 		//----------------------------------------------------------------------------------------------------------------
 		// Buy Recharge Card

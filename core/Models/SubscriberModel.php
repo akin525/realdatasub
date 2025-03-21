@@ -1037,12 +1037,11 @@
 			if($lastInsertId){return 0;}else{return 1;}
 		}
 
-		
+        public function deductBalance($userId, $amount) {
+            return $this->db->query("UPDATE users SET balance = balance - ? WHERE id = ?", [$amount, $userId]);
+        }
 
-		
-		
 
-
-	}
+    }
 
 ?>
