@@ -71,11 +71,11 @@
         <span>Referrals</span>
         <i class="fa fa-angle-right"></i>
     </a>
-    <a href="https://wa.link/1bhgst">
-        <i class="fa fa-laptop color-white" style="background-color:<?php echo $sitecolor; ?>"></i>
-        <span>Developer</span>
-        <i class="fa fa-angle-right"></i>
-    </a>
+<!--    <a href="https://wa.link/1bhgst">-->
+<!--        <i class="fa fa-laptop color-white" style="background-color:--><?php //echo $sitecolor; ?><!--"></i>-->
+<!--        <span>Developer</span>-->
+<!--        <i class="fa fa-angle-right"></i>-->
+<!--    </a>-->
 <!--    <a href="apidocumentation">-->
 <!--        <i class="fa fa-code color-white" style="background-color:--><?php //echo $sitecolor; ?><!--"></i>-->
 <!--        <span>Api</span>-->
