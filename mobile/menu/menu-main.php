@@ -31,11 +31,11 @@
         <span>Airtime</span>
         <i class="fa fa-angle-right"></i>
     </a>
-    <a href="transfer">
-        <i class="fa fa-arrow-down color-white" style="background-color:<?php echo $sitecolor; ?>"></i>
-        <span>Wallet Transfer</span>
-        <i class="fa fa-angle-right"></i>
-    </a>
+<!--    <a href="transfer">-->
+<!--        <i class="fa fa-arrow-down color-white" style="background-color:--><?php //echo $sitecolor; ?><!--"></i>-->
+<!--        <span>Wallet Transfer</span>-->
+<!--        <i class="fa fa-angle-right"></i>-->
+<!--    </a>-->
     <a href="buy-data-pin">
         <i class="fa fa-barcode color-white" style="background-color:<?php echo $sitecolor; ?>"></i>
         <span>Data Pin</span>
