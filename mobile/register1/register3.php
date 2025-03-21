@@ -29,7 +29,7 @@
             background-image: url("");
             background-repeat: no-repeat;
             background-size: cover;
-            background-color: #5B2DD9;
+            background-color: #491110;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -52,7 +52,7 @@
         background-color: #f2f2f2 !important; 
     }
 .gradient-highlight {
-    background: #5B2DD9 !important;
+    background: #491110 !important;
 }
 
 
@@ -62,8 +62,8 @@
     .btn{
         border-radius: 5rem !important;
     }
-    .color-highlight{color: #5B2DD9 !important; }
-.gradient-highlight{background:linear-gradient (#5B2DD9, #5B2DD9) !important; }
+    .color-highlight{color: #491110 !important; }
+.gradient-highlight{background:linear-gradient (#491110, #491110) !important; }
 </style>
 </head>
     

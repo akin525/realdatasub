@@ -26,7 +26,7 @@
             background-image: url("");
             background-repeat: no-repeat;
             background-size: cover;
-            background-color: #5B2DD9;
+            background-color: #491110;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -60,11 +60,11 @@
         }
 
         .color-highlight {
-            color: #5B2DD9 !important;
+            color: #491110 !important;
         }
 
         .gradient-highlight {
-            background: linear-gradient(#5B2DD9, #5B2DD9) !important;
+            background: linear-gradient(#491110, #491110) !important;
         }
     </style>
 </head>

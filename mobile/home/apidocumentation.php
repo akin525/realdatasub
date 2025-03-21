@@ -18,7 +18,7 @@
             margin-bottom: 40px;
             margin-top: 50px;
             padding: 20px 0;
-            background-color: #5B2DD9;
+            background-color: #491110;
             color: #fff;
         }
         .container {
@@ -40,7 +40,7 @@
         }
         .endpoint h2 {
             margin-bottom: 10px;
-            color: #5B2DD9 ;
+            color: #491110 ;
         }
         .endpoint p {
             margin-top: 0;
@@ -53,7 +53,7 @@
             overflow-x: auto;
         }
         code {
-            color: #5B2DD9 ;
+            color: #491110 ;
         }
     </style>
 </head>
