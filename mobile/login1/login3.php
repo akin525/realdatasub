@@ -64,7 +64,7 @@
         }
 
         .gradient-highlight {
-            background: linear-gradient(#491110, #491110) !important;
+            background: linear-gradient(#491110, #C3211C) !important;
         }
     </style>
 </head>
