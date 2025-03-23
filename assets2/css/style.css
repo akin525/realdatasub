@@ -1573,3 +1573,7 @@ section {
     padding-top: 4px;
   }
 }
+
+.center-text {
+  text-align: center;
+}
