@@ -130,12 +130,12 @@
                         <p class="mb-0 pt-1 font-13">Recharge Card Pin</p>
                     </a>
                     
-                    <a href="buy-data-pin" class="col-4 mt-2">
-                        <span class="icon icon-l shadow-l rounded-sm" style="color:<?php echo $sitecolor; ?>;">
-                            <i class="fa fa-wifi font-18"></i>
-                        </span>
-                        <p class="mb-0 pt-1 font-13">Data Card</p>
-                    </a>
+<!--                    <a href="buy-data-pin" class="col-4 mt-2">-->-->
+<!--                       <span class="icon icon-l shadow-l rounded-sm" style="color:-->--><?php ////echo $sitecolor; ?>
+<!--/*                            <i class="fa fa-wifi font-18"></i>*/-->
+<!--/*                       </span>*/-->
+<!--/*                       <p class="mb-0 pt-1 font-13">Data Card</p>*/-->
+<!--/*                   </a>*/-->
                     
                     <a href="2bank" class="col-4 mt-2">
                         <span class="icon icon-l shadow-l rounded-sm" style="color:<?php echo $sitecolor; ?>;">
