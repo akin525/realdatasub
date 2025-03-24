@@ -114,12 +114,12 @@
                         <p class="mb-0 pt-1 font-13">Data</p>
                     </a>
 
-                    <a href="buy-data-pin" class="col-4 mt-2">
-                        <span class="icon icon-l shadow-l rounded-sm" style="color:#00cc00;">
-                            <i class="fa fa-barcode font-18 "></i>
-                        </span>
-                        <p class="mb-0 pt-1 font-13">Data Card</p>
-                    </a>
+<!--                    <a href="buy-data-pin" class="col-4 mt-2">-->
+<!--                        <span class="icon icon-l shadow-l rounded-sm" style="color:#00cc00;">-->
+<!--                            <i class="fa fa-barcode font-18 "></i>-->
+<!--                        </span>-->
+<!--                        <p class="mb-0 pt-1 font-13">Data Card</p>-->
+<!--                    </a>-->
 
                     <a href="electricity" class="col-4 mt-2">
                         <span class="icon icon-l shadow-l rounded-sm" style="color:#00cc00;">
@@ -159,20 +159,20 @@
                     </a>
                     
                     
-                <a href="2bank" class="col-4 mt-2">
-                        <span class="icon icon-l shadow-l rounded-sm" style="color:#cc0066;">
-                            <i class="fa fa-barcode font-18"></i>
-                        </span>
-                        <p class="mb-0 pt-1 font-13">Wallet2Bank</p>
-                    </a>
+<!--                <a href="2bank" class="col-4 mt-2">-->
+<!--                        <span class="icon icon-l shadow-l rounded-sm" style="color:#cc0066;">-->
+<!--                            <i class="fa fa-barcode font-18"></i>-->
+<!--                        </span>-->
+<!--                        <p class="mb-0 pt-1 font-13">Wallet2Bank</p>-->
+<!--                    </a>-->
                     
                     
-                <a href="buy-airtime" class="col-4 mt-2">
-                        <span class="icon icon-l shadow-l rounded-sm" style="color:#cc0066;">
-                            <i class="fa fa-phone font-18"></i>
-                        </span>
-                        <p class="mb-0 pt-1 font-13">Download Mobile App</p>
-                    </a>
+<!--                <a href="buy-airtime" class="col-4 mt-2">-->
+<!--                        <span class="icon icon-l shadow-l rounded-sm" style="color:#cc0066;">-->
+<!--                            <i class="fa fa-phone font-18"></i>-->
+<!--                        </span>-->
+<!--                        <p class="mb-0 pt-1 font-13">Download Mobile App</p>-->
+<!--                    </a>-->
                     
                     
                     <a href="transactions" class="col-4 mt-2">
