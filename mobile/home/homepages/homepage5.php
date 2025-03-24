@@ -143,12 +143,12 @@
                     </a>
 
                     
-                <a href="recharge-pin" class="col-4 mt-2">
-                        <span class="icon icon-l shadow-l rounded-sm" style="color:#cc0066;">
-                            <i class="fa fa-arrow-up font-18"></i>
-                        </span>
-                        <p class="mb-0 pt-1 font-13">Recharge Card</p>
-                    </a>
+<!--                <a href="recharge-pin" class="col-4 mt-2">-->
+<!--                        <span class="icon icon-l shadow-l rounded-sm" style="color:#cc0066;">-->
+<!--                            <i class="fa fa-arrow-up font-18"></i>-->
+<!--                        </span>-->
+<!--                        <p class="mb-0 pt-1 font-13">Recharge Card</p>-->
+<!--                    </a>-->
                     
                     
                 <a href="airtime2cash" class="col-4 mt-2">

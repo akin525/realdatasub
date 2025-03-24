@@ -36,16 +36,16 @@
 <!--        <span>Wallet Transfer</span>-->
 <!--        <i class="fa fa-angle-right"></i>-->
 <!--    </a>-->
-    <a href="buy-data-pin">
-        <i class="fa fa-barcode color-white" style="background-color:<?php echo $sitecolor; ?>"></i>
-        <span>Data Pin</span>
-        <i class="fa fa-angle-right"></i>
-    </a>
-    <a href="recharge-pin">
-        <i class="fa fa-print color-white" style="background-color:<?php echo $sitecolor; ?>"></i>
-        <span>Recharge Pin</span>
-        <i class="fa fa-angle-right"></i>
-    </a>
+<!--    <a href="buy-data-pin">-->
+<!--        <i class="fa fa-barcode color-white" style="background-color:--><?php //echo $sitecolor; ?><!--"></i>-->
+<!--        <span>Data Pin</span>-->
+<!--        <i class="fa fa-angle-right"></i>-->
+<!--    </a>-->
+<!--    <a href="recharge-pin">-->
+<!--        <i class="fa fa-print color-white" style="background-color:--><?php //echo $sitecolor; ?><!--"></i>-->
+<!--        <span>Recharge Pin</span>-->
+<!--        <i class="fa fa-angle-right"></i>-->
+<!--    </a>-->
     <a href="transactions">
         <i class="fa fa-receipt color-white" style="background-color:<?php echo $sitecolor; ?>"></i>
         <span>Transactions</span>
