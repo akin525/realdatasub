@@ -150,13 +150,13 @@
                         </span>
                         <p class="mb-0 pt-1 font-11">Airtime 2 Cash</p>
                     </a>
-                    <a href="buy-data-pin" class="col-4 mt-2">
-                    <span class="icon icon-l shadow-l rounded-sm" style="color:<?php echo $sitecolor; ?>; background: #<?php echo $color; ?>">
-                   
-                            <i class="fa fa-barcode font-18"></i>
-                        </span>
-                        <p class="mb-0 pt-1 font-11">Data Pin</p>
-                    </a>
+<!--                    <a href="buy-data-pin" class="col-4 mt-2">-->
+<!--                    <span class="icon icon-l shadow-l rounded-sm" style="color:--><?php //echo $sitecolor; ?>/*/*/*; background: #*/*/*/<?php //echo $color; ?><!--">-->
+<!--                   -->
+<!--                            <i class="fa fa-barcode font-18"></i>-->
+<!--                        </span>-->
+<!--                        <p class="mb-0 pt-1 font-11">Data Pin</p>-->
+<!--                    </a>-->
                     
 
             <a href="profile" class="col-4 mt-2">
