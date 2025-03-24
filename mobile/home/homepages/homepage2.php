@@ -50,12 +50,12 @@
                         </span>
                         <p class="mb-0 pt-1 font-11">Buy Airtime</p>
                     </a>
-                    <a href="buy-data-pin" class="col-3">
-                        <span class="icon icon-l rounded-sm" style="background:#fafafa; color:<?php echo $sitecolor; ?>;">
-                            <i class="fa fa-mobile font-18"></i>
-                        </span>
-                        <p class="mb-0 pt-1 font-11">Data Card</p>
-                    </a>
+<!--                    <a href="buy-data-pin" class="col-3">-->
+<!--                        <span class="icon icon-l rounded-sm" style="background:#fafafa; color:--><?php //echo $sitecolor; ?>/*;">*/
+<!--/*                            <i class="fa fa-mobile font-18"></i>*/-->
+<!--/*                        </span>*/-->
+<!--/*                        <p class="mb-0 pt-1 font-11">Data Card</p>*/-->
+<!--/*                    </a>*/-->
                     <a href="buy-data" class="col-3">
                         <span class="icon icon-l rounded-sm" style="background:#fafafa; color:<?php echo $sitecolor; ?>;">
                             <i class="fa fa-wifi font-18"></i>
@@ -130,12 +130,12 @@
                         <p class="mb-0 pt-1 font-13">Recharge Card Pin</p>
                     </a>
                     
-                    <a href="buy-data-pin" class="col-4 mt-2">
-                        <span class="icon icon-l shadow-l rounded-sm" style="color:<?php echo $sitecolor; ?>;">
-                            <i class="fa fa-wifi font-18"></i>
-                        </span>
-                        <p class="mb-0 pt-1 font-13">Data Card</p>
-                    </a>
+<!--                    <a href="buy-data-pin" class="col-4 mt-2">-->
+<!--                        <span class="icon icon-l shadow-l rounded-sm" style="color:--><?php //echo $sitecolor; ?>/*;">*/
+/*                            <i class="fa fa-wifi font-18"></i>*/
+/*                        </span>*/
+/*                        <p class="mb-0 pt-1 font-13">Data Card</p>*/
+/*                    </a>*/
                     
                     <a href="2bank" class="col-4 mt-2">
                         <span class="icon icon-l shadow-l rounded-sm" style="color:<?php echo $sitecolor; ?>;">
